@@ -1,16 +1,67 @@
-# React + Vite
+# Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple weather application built with React that allows users to search for a city and view its current weather information. The application uses a weather API to retrieve real-time data and presents it through a clean and responsive interface.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Search weather information by city name
+* Display current temperature and feels-like temperature
+* Show minimum and maximum temperature
+* Display humidity and weather conditions
+* Dynamic images based on weather conditions
+* Responsive user interface
 
-## React Compiler
+## Screenshots
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Home Page
 
-## Expanding the ESLint configuration
+![Home Page](Images/Homepage.png)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Cold Weather
+
+![Cold Weather](Images/Cold_Place.png)
+
+### Rainy Weather
+
+![Rainy Weather](Images/Rainy_Place.png)
+
+### Location Not Found
+
+![Location Not Found](Images/Place_not_found.png)
+
+## Technologies Used
+
+* React.js
+* JavaScript
+* HTML
+* CSS
+* Material UI
+* Weather API
+
+## Getting Started
+
+Clone the repository and install the required dependencies:
+
+```bash
+git clone https://github.com/v-Krishna06/weatherApp-react.git
+cd weatherApp-react
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+The application will then be available on the local development server.
+
+## Project Overview
+
+This project was developed to practice React fundamentals, API integration, state management, component-based development, and responsive UI design.
+
+## Author
+
+**Krishna Kumar Verma**
+
+
